@@ -23,7 +23,7 @@ void customer::menu()
         delay(400);
     }
     cls();
-    cout << "Restaurants found in " << add << "! Choose your desired restaurant to view the menu:\n";
+    cout << "Restaurants found in area Choose your desired restaurant to view the menu:\n";
     cout << "[1] Kapita Kitchen\n[2] Younas Bakers\n[3] Zahid Kebab House\n";
 
     while (true)
@@ -71,6 +71,8 @@ void customer::show() { cout << "same"; }
 void customer::SignIn()
 {
     cls();
+    cout << "\n\n\t Sign In Now!\n\n"
+         << endl;
     cout << "Enter username or email address:\n";
     cin >> email_id;
     cout << "Enter password:\n";
@@ -123,8 +125,10 @@ void customer::SignIn()
 void customer::SignUp()
 {
     cls();
+    cout << "\n\n\t Sign In Now!\n\n"
+         << endl;
     int ph;
-    cout << "Enter your email address:\n";
+    cout << "Enter your email or username address:\n";
     cin >> emailid;
     cout << "Enter phone number:\n";
     cin >> ph;
@@ -151,6 +155,7 @@ void customer::SignUp()
     else
     {
         cout << "Passwords do not match! Please try again.\n";
+        system("pause");
         SignUp();
     }
 }

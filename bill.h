@@ -33,4 +33,4 @@ public:
     void showFeedback();
 };
 
-#endif // BILL_H
+#endif

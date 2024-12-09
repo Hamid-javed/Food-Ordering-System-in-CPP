@@ -10,9 +10,6 @@ using namespace std;
 
 void customer::menu()
 {
-    // cls();
-    // cout << "Enter area you wish to have food delivered to:\n";
-    // cin >> add;
     cout << "Redirecting...\n";
     delay(400);
     cls();
@@ -33,7 +30,6 @@ void customer::menu()
     {
         cin >> n;
 
-        // Check if input is invalid (not 1, 2, 3, or 4)
         if (n < 1 || n > 3)
         {
             cin.clear();
@@ -41,7 +37,7 @@ void customer::menu()
         }
         else
         {
-            break; // Exit the loop if a valid select is entered
+            break;
         }
     }
 

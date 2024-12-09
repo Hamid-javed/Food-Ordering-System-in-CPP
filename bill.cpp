@@ -6,31 +6,12 @@
 #include <limits>
 using namespace std;
 
-// long int receipt()
-// {
-
-//     srand(time(NULL));
-
-//     long int receipt = rand() % 1000 + 1;
-//     return receipt;
-// }
-
 void bill::show()
 {
     cout << "Bill management." << endl;
 }
 
 bill::bill() {}
-
-// void cls()
-// {
-//     system("cls");
-// }
-
-// void exit()
-// {
-//     exit(0);
-// }
 
 void bill::displaybill(int t, int i, int price[], string dish[])
 {
@@ -121,13 +102,13 @@ void bill::showBills()
 void bill::rider(int t)
 {
     srand(time(NULL));
-    string guy[] = {"Arkam", "Hassan", "Rimsha", "Warda", "Fatima", "Ali", "Zahid", "Abdul Reham", "Tariq", "Tooba", "Hamid"};
+    string guy[] = {"Arkam", "Hassan", "Umer", "Haris", "Wahab", "Ali", "Tariq", "Bilal", "Hamza"};
     int index = rand() % 7;
     cout << "\n\t\t\t\tThank you for choosing GetEatEnjoy!\n";
     cout << "\n\t\t\t\tPlease take notes the details provided below: \n";
     cout << "\n\t\t\t\tReciept Number: " << receipt() << endl;
     cout << "\n\t\t\t\tRider Name: " << guy[index] << endl;
-    cout << "\n\t\t\t\tRider Contact: +9350078601" << endl;
+    cout << "\n\t\t\t\tRider Contact: +9250078601" << endl;
     cout << "\n\t\t\t\tTotal Amount: " << t << endl;
     cout << "\n\t\t\t\tPlace: " << area << endl;
     cout << "\n\t\t\t\tMode Of Payment: Cash On Delivery" << endl;

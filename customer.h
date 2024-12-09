@@ -14,7 +14,6 @@ class customer : protected restaurant
 protected:
     ofstream regdata;
     fstream cou;
-    // static const char *name;
     string email_id, emailid, emaiid;
     string pass, pw, password;
     string pass2;
@@ -32,4 +31,4 @@ public:
     void start(bool time = true);
 };
 
-#endif // CUSTOMER_H
+#endif

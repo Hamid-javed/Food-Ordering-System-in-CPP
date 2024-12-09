@@ -13,7 +13,7 @@ void edit(int i, string dish[], int price[])
 {
     int pos;
 
-    cout << "elect the item you want to delete:\t";
+    cout << "Select the item you want to delete:\t";
     cin >> pos;
 
     if (pos > i)

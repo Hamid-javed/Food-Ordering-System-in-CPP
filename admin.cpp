@@ -1,5 +1,5 @@
 #include "admin.h"
-#include <cstdlib> // for system("pause")
+#include <cstdlib>
 #include <iostream>
 #include "utils.h"
 #include "bill.h"

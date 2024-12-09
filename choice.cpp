@@ -43,7 +43,6 @@ choice::choice(bool pause) : shouldPause(pause)
              << endl;
         system("pause");
         cls();
-        // cout << "\n\t\t\t\t\t\t\tFOOD DELIVERY MANAGEMENT SYSTEM\n";
         cout << R"(
          _____                                                                                 _____ 
        ( ___ )-------------------------------------------------------------------------------( ___ )
